@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Registration App</string>
+    <string name="my_title">Fill in the form to register</string>
+    <string name="name_hint">Enter name</string>
+    <string name="email_hint">Enter Email</string>
+    <string name="id_hint">Enter ID Number</string>
+</resources>

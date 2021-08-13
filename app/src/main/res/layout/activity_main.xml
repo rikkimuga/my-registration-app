@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/six"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textColor="#64B5F6"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:id="@+id/mtv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/my_title" />
+
+    <EditText
+        android:paddingLeft="16dp"
+        android:textColorHint="#151919"
+        android:layout_marginTop="30dp"
+        android:id="@+id/medtname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/name_hint"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:layout_marginBottom="15dp"
+        android:id="@+id/medtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/email_hint"
+        android:inputType="textEmailAddress" />
+
+     
+
+    <EditText
+        android:layout_marginBottom="15dp"
+        android:id="@+id/medtNumber2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Phone Number"
+        android:inputType="number" />
+
+    <EditText
+        android:layout_marginBottom="15dp"
+        android:id="@+id/medtPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:textStyle="bold|italic"
+            android:textAllCaps="false"
+            android:textColor="#07090B"
+            android:backgroundTint="#64B5F6"
+            android:id="@+id/btnregister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Register" />
+
+        <Button
+            android:textStyle="bold|italic"
+            android:textAllCaps="false"
+            android:textColor="#07090B"
+            android:backgroundTint="#64B5F6"
+            android:id="@+id/btnlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Login" />
+    </LinearLayout>
+
+</LinearLayout>
